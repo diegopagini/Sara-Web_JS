@@ -176,7 +176,7 @@ a {
   margin: 1rem;
 }
 
-.left__btn {
+/* .left__btn {
   background: center / contain no-repeat url(/ASSETS/ICONOS/left.png);
   border-radius: 50%;
   height: 5rem;
@@ -190,11 +190,11 @@ a {
   height: 5rem;
   width: 5rem;
   border: none;
-}
+} */
 
-.arrow:active{
+/* .arrow:active{
   transform: scale(1.1);
-}
+} */
 
 .video-main__container {
   display: flex;
@@ -297,6 +297,7 @@ a {
   text-align: center;
   width: auto;
   height: auto;
+  z-index: 30;
 }
 
 .footer__list-container {
