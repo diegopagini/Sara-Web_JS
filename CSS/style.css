@@ -200,7 +200,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .video {
@@ -251,6 +250,7 @@ a {
   margin: 0;
   padding: 0;
   background-color: var(--primary-color);
+  z-index: 20;
 }
 
 .video-nav {
@@ -321,3 +321,7 @@ a {
   grid-row: 4;
 }
 /* --- end of footer --- */
+
+.nav__item {
+  z-index: 30;
+}
