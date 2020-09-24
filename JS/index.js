@@ -86,8 +86,7 @@ function imprimirFrases() {
     })
     
     document.getElementById('article-container').innerHTML = frase;
-}
-
+} 
 imprimirFrases();
 
 
